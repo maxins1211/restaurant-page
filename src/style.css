@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+header h1 {
+  color: white;
+  font-weight: 500;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  cursor: pointer;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  position: relative;
+  font-size: 1.2rem;
+}
+header li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: burlywood;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+header li:hover {
+  color: burlywood;
+}
+header li:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+header li.active {
+  color: burlywood; /* Change color for active state */
+}
+
+header li.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Content Section */
+#content {
+  margin: 0px auto;
+  width: 80%;
+  min-height: 80vh;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home tab */
+
+#home-page-picture {
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  background: url("../src/coffee-brain-caffeine-neuroscincces.jpg.webp") center
+    no-repeat;
+  background-size: 300px 200px;
+}
+
+#home-tab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-tab-h1 {
+  text-align: center;
+  max-width: 350px;
+  line-height: 50px;
+  margin: 20px;
+}
+
+#home-tab-h2 {
+  margin: 20px;
+}
+
+/* Menu tab */
+
+#menu-container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+#latte {
+  width: 100px;
+  height: 100px;
+  background: url("/src/latte-3.webp") bottom;
+  background-size: 110px 110px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+#espresso {
+  width: 100px;
+  height: 100px;
+  background: url("/src/espresso.webp") right;
+  background-size: 150px 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+#americano {
+  width: 100px;
+  height: 100px;
+  background: url("/src/americano.jpeg");
+  background-size: 100px 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+#cappuccino {
+  width: 100px;
+  height: 100px;
+  background: url("/src/cappuccino.jpeg") right;
+  background-size: 130px 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+#mocha {
+  width: 100px;
+  height: 100px;
+  background: url("/src/mocha.png");
+  background-size: 100px 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+#cold-brew {
+  width: 100px;
+  height: 100px;
+  background: url("/src/cold-brew.jpeg") center no-repeat;
+  background-size: 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+.card {
+  margin: 10px;
+  max-width: 250px;
+  height: 300px;
+  /* border: 1px solid grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: burlywood;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.card p {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+/* Contact tab */
+
+#contact-tab-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#contact-tab-container h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 10px;
+}
+
+#location-img {
+  margin: 10px;
+  width: 500px;
+  height: 500px;
+  background: url("/src/location.png") center;
+  background-size: 800px 500px;
+}
+
+/* Utility */
+/* .active {
+  border-bottom: black 2px solid;
+} */
