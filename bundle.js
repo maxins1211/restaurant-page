@@ -925,7 +925,7 @@ function createCardWithElements(name, content, id) {
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "3328565a21cb28eee368.jpeg";
+module.exports = __webpack_require__.p + "images/3328565a21cb28eee368.jpeg";
 
 /***/ }),
 
@@ -935,7 +935,7 @@ module.exports = __webpack_require__.p + "3328565a21cb28eee368.jpeg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "82c38a48a53ad665cd95.jpeg";
+module.exports = __webpack_require__.p + "images/82c38a48a53ad665cd95.jpeg";
 
 /***/ }),
 
@@ -945,7 +945,7 @@ module.exports = __webpack_require__.p + "82c38a48a53ad665cd95.jpeg";
   \**********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "89a9a8c203cb6b70aea4.webp";
+module.exports = __webpack_require__.p + "images/89a9a8c203cb6b70aea4.webp";
 
 /***/ }),
 
@@ -955,7 +955,7 @@ module.exports = __webpack_require__.p + "89a9a8c203cb6b70aea4.webp";
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "71b64915a68c1c587536.jpeg";
+module.exports = __webpack_require__.p + "images/71b64915a68c1c587536.jpeg";
 
 /***/ }),
 
@@ -965,7 +965,7 @@ module.exports = __webpack_require__.p + "71b64915a68c1c587536.jpeg";
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "37f9af31eb9062cdec78.webp";
+module.exports = __webpack_require__.p + "images/37f9af31eb9062cdec78.webp";
 
 /***/ }),
 
@@ -975,7 +975,7 @@ module.exports = __webpack_require__.p + "37f9af31eb9062cdec78.webp";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "64f12ce5a635749b8a30.webp";
+module.exports = __webpack_require__.p + "images/64f12ce5a635749b8a30.webp";
 
 /***/ }),
 
@@ -985,7 +985,7 @@ module.exports = __webpack_require__.p + "64f12ce5a635749b8a30.webp";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "67f0065e2700a9f4a95a.png";
+module.exports = __webpack_require__.p + "images/67f0065e2700a9f4a95a.png";
 
 /***/ }),
 
@@ -995,7 +995,7 @@ module.exports = __webpack_require__.p + "67f0065e2700a9f4a95a.png";
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "c21605aa3cc2486044a6.png";
+module.exports = __webpack_require__.p + "images/c21605aa3cc2486044a6.png";
 
 /***/ })
 
